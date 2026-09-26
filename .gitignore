@@ -1,10 +1,8 @@
 # Secrets — never commit
 .env
 
-# Local files not part of this project
-*.pdf
-projects/
-sawa/
+# Personal rules — stays local
+AGENTS.local.md
 
 # Python
 __pycache__/
