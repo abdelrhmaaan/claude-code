@@ -1,0 +1,11 @@
+# Secrets — never commit
+.env
+
+# Local files not part of this project
+*.pdf
+projects/
+sawa/
+
+# Python
+__pycache__/
+*.pyc
