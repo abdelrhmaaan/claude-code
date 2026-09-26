@@ -6,8 +6,9 @@ load_dotenv(override=True)
 
 client = genai.Client(api_key=os.getenv("api_key"))
 
+user_probmt = input('Enter your prompt: ')
 interaction = client.interactions.create(
     model="gemini-3.8-flash",
-    input="Explain how AI works in a few words"
+    input=user_probmt
 )
 print(interaction.output_text)
